@@ -1,12 +1,12 @@
-// import './App.css';
 import React from 'react';
-import Calc from './calc.js'
+import { Routes, Route } from 'react-router-dom';
+import Calc from './calc';
 
 function App() {
   return (
-    <>
-    <Calc/>
-    </>
+    <Routes>
+      <Route path="/" element={<Calc />} />
+    </Routes>
   );
 }
 
