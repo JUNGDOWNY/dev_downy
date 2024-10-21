@@ -1,12 +1,13 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Calc from './calc';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Calc from './calc'; 
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Calc />} />
-    </Routes>
+    <Router basename="/dev_downy/calc">
+      <Routes>
+        <Route path="/" element={<Calc />} />
+      </Routes>
+    </Router>
   );
 }
 
