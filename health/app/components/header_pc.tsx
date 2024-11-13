@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import '../styles/header_pc.css';
+import '../../styles/header_pc.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -39,7 +39,7 @@ const Pcheader: React.FC = () => {
                 </div>
                 <div className='header__search'>
                     <label htmlFor='search' className='sr-only'>건강기능식품 검색</label>
-                    <input type='text' id='search' className='header__search-ipt' aria-label='건강기능식품 검색'></input>
+                    <input type='text' id='search' className='header__search-ipt' aria-label='건강기능식품 검색창' placeholder='건강기능 식품을 검색해 주세요'></input>
                     <button type='button' className='header__search-btn'>검색하기</button>
                 </div>
                 <div className='header__my-menu'>
@@ -60,25 +60,25 @@ const Pcheader: React.FC = () => {
                         {isHovered && (
                             <div className='my-menu__layer' role="menu">
                                 {isLogIn ? (
-                                    <div>d</div>
+                                    <button type='button' onClick={()=>{ setIsLogIn(!isLogIn);}} className='my__menu__login-btn' >로그인</button>
                                 ) : (
                                 <>
                                     <Link href='https://www.enuri.com/my/my_enuri.jsp?name=zzim' legacyBehavior>
-                                        <a role="menuitem">마이 e클럽</a>
+                                        <a>마이 e클럽</a>
                                     </Link>
                                     <Link href='https://www.enuri.com/my/eclub.jsp?t=emoney' legacyBehavior>
-                                        <a role="menuitem">e머니<span>75</span>점</a>
+                                        <a>e머니<span>75</span>점</a>
                                     </Link>
                                     <Link href='https://www.enuri.com/my/my_enuri.jsp?name=zzim' legacyBehavior>
-                                        <a role="menuitem">구독상품</a>
+                                        <a>구독상품</a>
                                     </Link>
                                     <Link href='https://www.enuri.com/member/info/infoPwChk.jsp' legacyBehavior>
-                                        <a role="menuitem">개인정보관리</a>
+                                        <a>개인정보관리</a>
                                     </Link>
                                     <Link href='https://www.enuri.com/knowcom/qna.jsp' legacyBehavior>
-                                        <a role="menuitem">쇼핑Q&A</a>
+                                        <a>쇼핑Q&A</a>
                                     </Link>
-                                    <button type='button' onClick={logout} className='my__menu__logout-btn' role="menuitem">로그아웃</button>
+                                    <button type='button' onClick={logout} className='my__menu__logout-btn'>로그아웃</button>
                                 </>
                                 )}
                             </div>
@@ -96,7 +96,7 @@ const Pcheader: React.FC = () => {
                 <ul className='nav__list'>
                     <li>
                         <Link href='/home' legacyBehavior>
-                            <a className={pathname === '/home' ? 'active' : ''}>건강+홈</a>
+                            <a className={pathname === '/home' ? 'active' : ''}>건강+ 홈</a>
                         </Link>
                     </li>
                     <li>
@@ -105,8 +105,8 @@ const Pcheader: React.FC = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href='/function' legacyBehavior>
-                            <a className={pathname === '/function' ? 'active' : ''}>대상/기능별</a>
+                        <Link href='/target' legacyBehavior>
+                            <a className={pathname === '/target' ? 'active' : ''}>대상/기능별</a>
                         </Link>
                     </li>
                     <li>

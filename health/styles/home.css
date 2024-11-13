@@ -1,3 +1,36 @@
 @charset "utf-8";
 
+/* home__visual */
 .home__visual { height: 400px; background: url(//img.enuri.info/images/health/web/main-visual_bg_v2.svg) #fff4e4 no-repeat center;}
+.home__visual__inner {width: 1280px; margin: 0 auto; height: 100%; background: url(//img.enuri.info/images/health/web/main-visual_img_v2.png?=v2) no-repeat calc(100% - 185px) 40px; animation: visualenter 1.6s ease; position: relative; padding: 80px 68px; box-sizing: border-box;}
+.home__visual__inner::before { content: ""; display: block; width: 182px; height: 182px; background: url("//img.enuri.info/images/health/web/i_main-visual2.png"); position: absolute; right: 405px; bottom: 130px; opacity: 0; animation: icomove3 1s ease-in forwards; animation-delay: 0.65s;}
+.home__visual__inner::after { content: ""; display: block; width: 141px; height: 185px; background: url(//img.enuri.info/images/health/web/i_main-visual.png); position: absolute; right: 120px; bottom: 70px; animation: icomove1 1.6s ease, icomove2 2s infinite alternate ease-in-out 1.45s;}
+
+@keyframes visualenter {
+    0% {background-position-y: 200%;}
+    100% {background-position-y: 40px}
+}
+
+@keyframes icomove1 {
+    0% {transform: translateY(70px)}
+    100% {transform: translateY(-12px)}
+}
+
+@keyframes icomove2 {
+    0% {transform: translateY(-12px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(-12px);}
+}
+
+@keyframes icomove3 {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+/* home__cate */
+.home__cate {width: 1280px; margin: -122px auto 0; background: #fff; display: flex; position: relative; border-radius: 20px; overflow: hidden;box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06); padding-top: 32px;} 
+.home__cate--target {padding: 0 30px;}
+.home__cate--tit { height: 40px; font-size: 18px; color: #fff; text-align: center; line-height: 40px;} 
+.home__cate--target_tit {width: 184px; background: url(//img.enuri.info/images/health/web/target-cate--tit.svg) no-repeat 0 0 / 100%;}
+.home__cate--ingredient_tit {width: 146px; background: url(//img.enuri.info/images/health/web/function-cate__tit.svg) no-repeat 0 0;}
+.home__cate--cont {padding: 20px 0 32px;}

@@ -13,7 +13,7 @@ hr{display:none}
 fieldset,img{border:none}
 legend,caption{display:block;overflow:hidden;position:absolute;text-indent:-9999px;top:-9999px;font-size:0;width:1px;height:1px;left:-9999px;line-height:0}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,a {font-weight:normal;margin:0;padding:0;border:0 none;}
-button, a {cursor:pointer}
+button, a {cursor:pointer;background: inherit;}
 button:disabled {cursor:default}
 pre {font-family:inherit}
 table{border-collapse:collapse;word-break:break-all;font-size:12px;border-spacing:0;empty-cells:show}
