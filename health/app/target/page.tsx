@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Function() {
+export default function Target() {
     return (
         <div>대상/기능별</div>
     );
