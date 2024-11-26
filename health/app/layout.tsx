@@ -1,5 +1,5 @@
 import '../styles/global.css';
-import Pcheader from '../components/header_pc';
+import Pcheader from './components/header_pc';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (

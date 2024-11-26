@@ -1,11 +1,15 @@
-import HomePage from './home/page';
+import Home from './home/page';
 import Ingredient from './ingredient/page';
+import Lowest from './lowest/page';
+import Target from './target/page';
 
-export default function Home() {
+export default function App() {
     return (
         <div className="wrap">
-            <HomePage />
+            <Home />
             <Ingredient />
+            <Target />
+            <Lowest />
         </div>
     );
 }
