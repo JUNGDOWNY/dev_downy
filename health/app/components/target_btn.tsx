@@ -25,7 +25,7 @@ const TargetBtn: React.FC<TargetBtnProps> = ({ categories, selectedIndex, onSele
                         className={`target-btn ${selectedIndex === index ? 'on' : ''}`}
                         onClick={() => onSelect(index)}
                     >   <div className='target-btn__img'>
-                            <img src={`//img.enuri.info/images/health/web/target-cate_ico${index + 1}.svg`} alt={category} role="presentation" />
+                            <img src={`https://img.enuri.info/images/health/web/target-cate_ico${index + 1}.svg`} alt={category} role="presentation" />
                         </div>
                         <div className="target-btn__txt">{category}</div>
                     </button>

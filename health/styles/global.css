@@ -39,8 +39,7 @@ textarea:focus:-ms-input-placeholder {color:transparent;}
 
 /* Link */
 a{cursor:pointer;color:#666666;font: inherit;}
-a:link,a:visited,a:active{text-decoration:none}
-a:hover{text-decoration:underline}
+a:link,a:visited,a:active,a:hover{text-decoration:none}
 a:active{background-color:transparent}
 
 /* Form */
