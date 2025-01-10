@@ -1,0 +1,88 @@
+{
+    "success":true,
+    "list":[
+        {   
+            "key": 1,
+            "ban_nm2":"단백질로 든든하게","ban_tpc_nm":"","ban_nm1":"탄탄한 근육 만들기!","ban_txt":"프로틴 집중분석","ban_img_url_2":"","guide_views":"0","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521094739.jpg","bbs_tp_cd":"1","landing_url":"/cmexhibition/main.jsp?adsNo=3458"
+        },
+        {
+            "key": 2,
+            "ban_nm2":"비타민D 보충하자","ban_tpc_nm":"","ban_nm1":"햇빛만으로는 부족해!","ban_txt":"비타민D 결핍주의보","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240528084756.jpg","guide_views":"22,184","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521094512.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3518406&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 3,
+            "ban_nm2":"우리 몸에 꼭! 필요한 오메가3","ban_tpc_nm":"","ban_nm1":"현대인의 필수 영양제","ban_txt":"체내합성이 힘든 필수 지방산","ban_img_url_2":"","guide_views":"7,192","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521095119.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3385261&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 4,
+            "ban_nm2":"좋은 홍삼 고르는 방법?","ban_tpc_nm":"","ban_nm1":"홍삼, 비쌀수록 좋다는 오해","ban_txt":"함량 당 가격으로 확인하자!","ban_img_url_2":"","guide_views":"0","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_241220151215.jpg","bbs_tp_cd":"1","landing_url":"/cmexhibition/main.jsp?adsNo=4311"
+        },
+        {
+            "key": 5,
+            "ban_nm2":"잊지말고 챙기자, 엽산!","ban_tpc_nm":"","ban_nm1":"가임기부터 수유기까지","ban_txt":"예비 엄마, 아빠들 필독","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240527153753.jpg","guide_views":"9,141","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240527153738.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3513092&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 6,
+            "ban_nm2":"콜라겐으로 지키자","ban_tpc_nm":"","ban_nm1":"날마다 떨어지는 피부 탄력","ban_txt":"저분자콜라겐 바로알기","ban_img_url_2":"","guide_views":"0","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521094204.jpg","bbs_tp_cd":"1","landing_url":"/cmexhibition/main.jsp?adsNo=3342"
+        },
+        {
+            "key": 7,
+            "ban_nm2":"침침한 눈 관리엔 루테인","ban_tpc_nm":"","ban_nm1":"루테인 고민중?","ban_txt":"복합 성분으로 선택하세요!","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240221182521.jpg","guide_views":"8,749","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240514135752.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3384905&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 8,
+            "ban_nm2":"락토핏 유산균 특징 정리!","ban_tpc_nm":"","ban_nm1":"알고 구매하자!","ban_txt":"#인기템 #온가족유산균","ban_img_url_2":"","guide_views":"264","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240618131354.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3532126&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 9,
+            "ban_nm2":"가르시니아","ban_tpc_nm":"","ban_nm1":"체지방 감소를 위한 선택","ban_txt":"탄수화물을 많이 먹는다면","ban_img_url_2":"","guide_views":"0","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521094337.jpg","bbs_tp_cd":"1","landing_url":"/cmexhibition/main.jsp?adsNo=3343"
+        },
+        {
+            "key": 10,
+            "ban_nm2":"간을 위한 밀크씨슬","ban_tpc_nm":"","ban_nm1":"침묵의 장기","ban_txt":"통증을 잘 느낄 수 없는 기관","ban_img_url_2":"","guide_views":"8,503","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521095232.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3384909&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 11,
+            "ban_nm2":"진화하는 유산균","ban_tpc_nm":"","ban_nm1":"장건강 챙기자!","ban_txt":"갱년기,체지방 감소까지","ban_img_url_2":"","guide_views":"1,652","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521095500.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3420336&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 12,
+            "ban_nm2":"비타민B군 알아보기","ban_tpc_nm":"","ban_nm1":"활력 에너지 UP!","ban_txt":"체내에너지 생성","ban_img_url_2":"","guide_views":"322","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521093409.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3420335&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 13,
+            "ban_nm2":"대표주자, 홍삼","ban_tpc_nm":"","ban_nm1":"면역력 증진","ban_txt":"#우리_아이부터 #갱년기_어머니까지","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240216162249.jpg","guide_views":"7,341","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240517091627.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3385271&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 14,
+            "ban_nm2":"프로틴 집중분석","ban_tpc_nm":"","ban_nm1":"근육을 위한 선택","ban_txt":"헬린이를 위한","ban_img_url_2":"","guide_views":"0","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521094918.jpg","bbs_tp_cd":"1","landing_url":"/cmexhibition/main.jsp?adsNo=3457"
+        },
+        {
+            "key": 15,
+            "ban_nm2":"마그네슘 부족 신호!","ban_tpc_nm":"","ban_nm1":"눈 밑 떨림 현상,","ban_txt":"미리미리 대비하자","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240527153520.jpg","guide_views":"30,999","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240527153638.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3513121&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 16,
+            "ban_nm2":"'철' 들어야 건강해요!","ban_tpc_nm":"","ban_nm1":"영,유아 및 여성 빈혈","ban_txt":"철분 바로 알기","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240527153614.jpg","guide_views":"30,836","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240527153630.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3513120&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 17,
+            "ban_nm2":"항산화제 비타민C","ban_tpc_nm":"","ban_nm1":"영양제로 보충하는","ban_txt":"유해산소로부터 세포를 보호하라!","ban_img_url_2":"","guide_views":"7,142","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521095159.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3385249&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 18,
+            "ban_nm2":"골다공증 예방, 칼슘!","ban_tpc_nm":"","ban_nm1":"뼈 건강 안녕하신가요?","ban_txt":"놓치기 쉬운 영양소 챙기기","ban_img_url_2":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240528110825.jpg","guide_views":"28,963","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240528110816.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3519690&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 19,
+            "ban_nm2":"종합비타민 섭취 TIP","ban_tpc_nm":"","ban_nm1":"필요 영양소가 쏙 담겼다","ban_txt":"내 몸을 위한 선택","ban_img_url_2":"","guide_views":"7,680","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521093910.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3410060&bbsname=news&cateno=&page=1"
+        },
+        {
+            "key": 20,
+            "ban_nm2":"폴리코사놀 제대로 먹자~","ban_tpc_nm":"","ban_nm1":"혈관이 좁아진다!","ban_txt":"좋은 콜레스테롤▲ 나쁜 콜레스테롤▼","ban_img_url_2":"","guide_views":"11,932","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240618132514.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3532149&bbsname=news&cateno=&page=1"
+        },
+        {   "key": 21,
+            "ban_nm2":"관절/연골 건강","ban_tpc_nm":"","ban_nm1":"삶의 질이 달라진다!","ban_txt":"엠에스엠으로 바로 케어하자","ban_img_url_2":"","guide_views":"8,729","ban_img_url":"https://storage.enuri.info/Web_Storage/pic_upload/pick/ban_240521095338.jpg","bbs_tp_cd":"2","landing_url":"/knowcom/detail.jsp?kbno=3384899&bbsname=news&cateno=&page=1"
+        }
+    ]
+}

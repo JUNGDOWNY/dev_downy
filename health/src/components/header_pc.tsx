@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import '../../styles/header_pc.css';
+import '@styles/header_pc.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -92,11 +92,11 @@ const Pcheader: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <nav className='nav' aria-label='네비게이션 메뉴'>
-                <ul className='nav__list'>
+            <nav className='header__nav' aria-label='네비게이션 메뉴'>
+                <ul className='header__nav__list'>
                     <li>
-                        <Link href='/home' legacyBehavior>
-                            <a className={pathname === '/home' ? 'active' : ''}>건강+ 홈</a>
+                        <Link href='/' legacyBehavior>
+                            <a className={pathname === '/' ? 'active' : ''}>건강+ 홈</a>
                         </Link>
                     </li>
                     <li>

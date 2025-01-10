@@ -1,6 +1,7 @@
 "use client";
-import '../../styles/target_btn.css';
+
 import React from 'react';
+import '@styles/target_btn.css';
 
 interface TargetCategory {
     nm: string;

@@ -51,21 +51,21 @@
 /* recommend */
 .recommend {padding: 80px 0 40px}
 .recommend__inner {width: 1280px; margin: 0 auto; position: relative;}
-.recommgoods {margin-top: 32px;}
-.recommgoods__list {display: flex; gap: 0 20px;}
-.recommgoods__list a:hover .recommgoods__name{text-decoration: underline;}
-.recommgoods__img {width: 240px; height: 240px; background: #fff; border-radius: 8px; overflow: hidden; position: relative;}
-.recommgoods__img::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 4px; background-color: rgba(0, 0, 0, 0.02); border: 1px solid rgba(0, 0, 0, 0.03); z-index: 2;}
-.recommgoods__img img {position: absolute; top: -50%; left: -50%; right: -50%; bottom: -50%; width: auto; max-width: 100%; height: auto; max-height: 208px; margin: auto; vertical-align: middle;}
-.recommgoods__txt {margin-top: 12px;}
-.recommgoods__name { color: #222; font-size: 16px; line-height: 20px; display: -webkit-box; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word; -webkit-box-orient: vertical; -webkit-line-clamp: 2; height: 40px;}
-.recommgoods__price { display: flex;flex-wrap: wrap; margin: 4px 0; font-size: 14px; color: #000; flex-wrap: wrap; align-items: baseline; gap: 0 8px; letter-spacing: -0.3px;}
-.recommgoods__price em {font-size: 24px; font-weight: 700; vertical-align: -1px; line-height: 28px;}
-.recommgoods__price--day { font-size: 12px; color: #888; padding: 2px 4px; line-height: 12px; background: #f8f8f8; border-radius: 8px;}
-.recommgoods__ingredient {display: inline-block; color: #fe5c00; font-size: 14px; line-height: 18px; background: #fff7f3; font-weight: 500;}
-.recommgoods__rate {display: flex; font-size: 12px; line-height: 16px; color: #444; position: relative; gap: 0 2px; align-items: center; font-weight: 500; margin-top: 12px;}
-.recommgoods__rate::before { content: "\2605"; color: #FFA112; line-height: 16px; font-size: 14px;}
-.recommgoods__rate .rate--count {color: #666;}
+.recomm-goods {margin-top: 32px;}
+.recomm-goods__list {display: flex; gap: 0 20px;}
+.recomm-goods__list a:hover .recomm-goods__name{text-decoration: underline;}
+.recomm-goods__img {width: 240px; height: 240px; background: #fff; border-radius: 8px; overflow: hidden; position: relative;}
+.recomm-goods__img::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 4px; background-color: rgba(0, 0, 0, 0.02); border: 1px solid rgba(0, 0, 0, 0.03); z-index: 2;}
+.recomm-goods__img img {position: absolute; top: -50%; left: -50%; right: -50%; bottom: -50%; width: auto; max-width: 100%; height: auto; max-height: 208px; margin: auto; vertical-align: middle;}
+.recomm-goods__txt {margin-top: 12px;}
+.recomm-goods__name { color: #222; font-size: 16px; line-height: 20px; display: -webkit-box; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word; -webkit-box-orient: vertical; -webkit-line-clamp: 2; height: 40px;}
+.recomm-goods__price { display: flex;flex-wrap: wrap; margin: 4px 0; font-size: 14px; color: #000; flex-wrap: wrap; align-items: baseline; gap: 0 8px; letter-spacing: -0.3px;}
+.recomm-goods__price em {font-size: 24px; font-weight: 700; vertical-align: -1px; line-height: 28px;}
+.recomm-goods__price--day { font-size: 12px; color: #888; padding: 2px 4px; line-height: 12px; background: #f8f8f8; border-radius: 8px;}
+.recomm-goods__ingredient {display: inline-block; color: #fe5c00; font-size: 14px; line-height: 18px; background: #fff7f3; font-weight: 500;}
+.recomm-goods__rate {display: flex; font-size: 12px; line-height: 16px; color: #444; position: relative; gap: 0 2px; align-items: center; font-weight: 500; margin-top: 12px;}
+.recomm-goods__rate::before { content: "\2605"; color: #FFA112; line-height: 16px; font-size: 14px;}
+.recomm-goods__rate .rate--count {color: #666;}
 .recommend__page {display: flex;position: absolute;left: 0;right: 0;width: 100%;z-index: 11;opacity: 0;transition: all .5s linear; justify-content: center; align-items: center; top: 208px;}
 .recommend__btn { position: absolute; width: 36px; height: 36px; border-radius: 4px; border: 1px solid #eee; box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3); font-size: 0; text-indent: -9999px; opacity: 1; transition: all .1s ease-in-out; background: url("//img.enuri.info/images/health/web/btn_page.svg") #fff center no-repeat; background-size: 12px;}
 .recommend__btn-prev {left: 0; transform: rotate(180deg); box-shadow: 0 -3px 3px 0px rgba(0, 0, 0, 0.3); }
@@ -77,9 +77,9 @@
 /* best */
 .best {padding: 80px 0 40px}
 .best__inner {width: 1280px; margin: 0 auto; position: relative;}
-.bestgoods {margin-top: 32px;}
+.best-goods {margin-top: 32px;}
 .bestgoods__list {display: flex; gap: 0 20px;}
-.bestgoods__img {width: 240px; height: 240px; background: #fff; border-radius: 8px; overflow: hidden; position: relative;}
+.bestgoods__img {width: 305px; height: 240px; background: #fff; border-radius: 8px; overflow: hidden; position: relative;}
 .bestgoods__img::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 4px; background-color: rgba(0, 0, 0, 0.02); border: 1px solid rgba(0, 0, 0, 0.03); z-index: 2;}
 .bestgoods__img img {position: absolute; top: -50%; left: -50%; right: -50%; bottom: -50%; width: auto; max-width: 100%; height: auto; max-height: 208px; margin: auto; vertical-align: middle;}
 .bestgoods__txt {margin-top: 12px;}
@@ -109,19 +109,36 @@
 .ingredient-cate__txt {font-size: 16px; line-height: 22px; color: #444; text-align: center; letter-spacing: -1.1px; margin-top: 8px;}
 
 /* .real__review */
-.real__review {padding: 80px 0; background: #f8f8f8;}
-.real__review__inner {width: 1280px; margin: 0 auto; position: relative;}
-.real-review__goods {margin-top: 32px;}
-.real-review__list {display: flex; gap: 0 20px;}
-.real-review__list li { width: 413px; border: 1px solid #eee; border-radius: 8px; background: #fff; padding: 20px; box-sizing: border-box;}
-.real-review__item {display: flex; gap: 0 16px;}
-.real-review__img{ width: 100px; border-radius: 8px; overflow: hidden; height: 100px; position: relative; background: #fff;}
-.real-review__img::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 8px; background-color: rgba(0, 0, 0, 0.02); border: 1px solid rgba(0, 0, 0, 0.03); z-index: 2;}
-.real-review__img img {position: absolute; top: -50%; left: -50%; right: -50%; bottom: -50%; width: auto; max-width: 100%; height: auto; max-height: 86px; margin: auto; vertical-align: middle;}
-.review__page {display: flex;position: absolute;left: 0;right: 0;width: 100%;z-index: 11;opacity: 0;transition: all .5s linear; justify-content: center; align-items: center; top: 134px;}
-.review__btn { position: absolute; width: 36px; height: 36px; border-radius: 4px; border: 1px solid #eee; box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3); font-size: 0; text-indent: -9999px; opacity: 1; transition: all .1s ease-in-out; background: url("//img.enuri.info/images/health/web/btn_page.svg") #fff center no-repeat; background-size: 12px;}
-.review__btn-prev {left: 0; transform: rotate(180deg); box-shadow: 0 -3px 3px 0px rgba(0, 0, 0, 0.3); }
-.review__btn-next { right: 0;}
-.real__review:hover .review__page {opacity: 1;}
-.real__review:hover .review__btn-prev{left: -19px}
-.real__review:hover .review__btn-next {right: -19px}
+.actual-purchase {padding: 80px 0; background: #f8f8f8;}
+.actual-purchase__inner {width: 1280px; margin: 0 auto; position: relative;}
+.actual-purchase-goods {margin-top: 32px;}
+.actual-purchase__list {display: flex; gap: 0 20px;}
+.actual-purchase__item { width: 413px; border: 1px solid #eee; border-radius: 8px; background: #fff; padding: 20px; box-sizing: border-box;}
+.actual-purchase__product {display: flex; gap: 0 16px;}
+.actual-purchase__img{ width: 100px; border-radius: 8px; overflow: hidden; height: 100px; position: relative; background: #fff;}
+.actual-purchase__img::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 8px; background-color: rgba(0, 0, 0, 0.02); border: 1px solid rgba(0, 0, 0, 0.03); z-index: 2;}
+.actual-purchase__img img {position: absolute; top: -50%; left: -50%; right: -50%; bottom: -50%; width: auto; max-width: 100%; height: auto; max-height: 86px; margin: auto; vertical-align: middle;}
+.actual-purchase__txt {width: 255px;}
+.actual-purchase__name {font-size: 16px; line-height: 20px; height: 40px; color: #222; display: -webkit-box; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.actual-purchase__price { margin-top: 4px; font-size: 16px; color: #000; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; letter-spacing: -0.3px;}
+.actual-purchase__price em {font-size: 22px; font-weight: 700; vertical-align: -1px; line-height: 28px;}
+.actual-purchase__price--day {font-size: 12px; color: #888; padding: 2px 4px; line-height: 12px; background: #f8f8f8; border-radius: 8px;}
+.actual-purchase__typical { display: inline-block; color: #fe5c00; font-size: 13px; line-height: 16px; background: #fff7f3; font-weight: 500; margin-top: 12px;}
+.actual-purchase__review { height: 154px; background: #fbfbfb; border: 1px solid rgba(0, 0, 0, 0.03); border-radius: 4px; margin-top: 12px; padding: 16px; box-sizing: border-box;}
+.actual-purchase__review__rate { font-size: 16px; line-height: 16px; color: #222; position: relative; display: flex ; gap: 0 2px; align-items: center; font-weight: 700;}
+.actual-purchase__review__rate::before { content: "\2605"; color: #FFA112; line-height: 16px; font-size: 16px;}
+.actual-purchase__review__rate .rate--count { color: #666; font-size: 12px; font-weight: 400;}
+.actual-purchase__review__list {margin-top: 8px;}
+.actual-purchase__review__item {display: flex; align-items: center; gap: 0 8px; margin-top: 4px;}
+.actual-purchase--tit { width: 72px; font-size: 12px; line-height: 16px; background: #fff; border: 1px solid rgba(254, 92, 0, 0.4); border-radius: 16px; padding: 5px 0; text-align: center; color: #fe5c00; font-weight: 500;}
+.actual-purchase__page {display: flex;position: absolute;left: 0;right: 0;width: 100%;z-index: 11;opacity: 0;transition: all .5s linear; justify-content: center; align-items: center; top: 214px;}
+.actual-purchase__btn { position: absolute; width: 36px; height: 36px; border-radius: 4px; border: 1px solid #eee; box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3); font-size: 0; text-indent: -9999px; opacity: 1; transition: all .1s ease-in-out; background: url("//img.enuri.info/images/health/web/btn_page.svg") #fff center no-repeat; background-size: 12px;}
+.actual-purchase__btn-prev {left: 0; transform: rotate(180deg); box-shadow: 0 -3px 3px 0px rgba(0, 0, 0, 0.3); }
+.actual-purchase__btn-next { right: 0;}
+.actual-purchase:hover .actual-purchase__page {opacity: 1;}
+.actual-purchase:hover .actual-purchase__btn-prev{left: -19px}
+.actual-purchase:hover .actual-purchase__btn-next {right: -19px}
+
+/* tip */
+.tip {padding: 80px 0;}
+.tip__inner {display: flex; width: 1280px; margin: 0 auto; position: relative; gap: 0 90px;}
