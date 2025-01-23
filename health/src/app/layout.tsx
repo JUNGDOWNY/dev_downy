@@ -1,5 +1,6 @@
 import '@styles/global.css';
 import Pcheader from '../components/header_pc';
+import PcHeader from '../components/header_pc';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
@@ -13,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </head>
             <body>
                 <div className="wrap">
-                    <Pcheader />
+                    <PcHeader/>
                     <main>{children}</main>
                 </div>
             </body>

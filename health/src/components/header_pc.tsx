@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from 'react';
-import '@styles/header_pc.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import styles from '@styles/header_pc.module.css'
 
-const Pcheader: React.FC = () => {
+
+const PcHeader: React.FC = () => {
     const [isLogIn, setIsLogIn] = useState(true);
     const [isHovered, setIsHovered] = useState(false);
     const pathname = usePathname();
@@ -29,28 +30,26 @@ const Pcheader: React.FC = () => {
     };
 
     return (
-        <header className='header'>
-            <div className='header__inner'>
-                <div className='header__logo'>
-                    <a href='https://www.enuri.com' className='logo--enuri' aria-label='에누리홈'>에누리홈</a>
-                    <Link href='/home' legacyBehavior>
-                        <a className='logo--health' aria-label='건강 플러스홈'>건강 플러스홈</a>
-                    </Link>
+        <header className={styles.header}>
+            <div className={styles.inner}>
+                <div className={styles.logo}>
+                    <a href='https://www.enuri.com' className={styles['logo-enuri']} aria-label='에누리홈'>에누리홈</a>
+                    <Link href='/home' className={styles['logo-health']} aria-label='건강 플러스홈'>건강 플러스홈</Link>
                 </div>
-                <div className='header__search'>
+                <div className={styles.search}>
                     <label htmlFor='search' className='sr-only'>건강기능식품 검색</label>
-                    <input type='text' id='search' className='header__search-ipt' aria-label='건강기능식품 검색창' placeholder='건강기능 식품을 검색해 주세요'></input>
-                    <button type='button' className='header__search-btn'>검색하기</button>
+                    <input type='text' id='search' className={styles.ipt} aria-label='건강기능식품 검색창' placeholder='건강기능 식품을 검색해 주세요'></input>
+                    <button type='button' className={styles.search__btn}>검색하기</button>
                 </div>
-                <div className='header__my-menu'>
+                <div className={styles.mymenu}>
                     <div 
-                        className='header__my-menu-box'
+                        className={styles.box}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                     >
                         <button 
                             type='button' 
-                            className='my-menu__btn my-menu__btn--info' 
+                            className={styles.info__btn}
                             onClick={toggleLogin}
                             aria-haspopup="true"
                             aria-expanded={isHovered}
@@ -58,66 +57,46 @@ const Pcheader: React.FC = () => {
                             {isLogIn ? '로그인' : '정다운님'}
                         </button>
                         {isHovered && (
-                            <div className='my-menu__layer' role="menu">
+                            <div className={styles.my__layer} role="menu">
                                 {isLogIn ? (
-                                    <button type='button' onClick={()=>{ setIsLogIn(!isLogIn);}} className='my__menu__login-btn' >로그인</button>
+                                    <button type='button' className={styles.login__btn} onClick={()=>{ setIsLogIn(!isLogIn);}} >로그인</button>
                                 ) : (
                                 <>
-                                    <Link href='https://www.enuri.com/my/my_enuri.jsp?name=zzim' legacyBehavior>
-                                        <a>마이 e클럽</a>
-                                    </Link>
-                                    <Link href='https://www.enuri.com/my/eclub.jsp?t=emoney' legacyBehavior>
-                                        <a>e머니<span>75</span>점</a>
-                                    </Link>
-                                    <Link href='https://www.enuri.com/my/my_enuri.jsp?name=zzim' legacyBehavior>
-                                        <a>구독상품</a>
-                                    </Link>
-                                    <Link href='https://www.enuri.com/member/info/infoPwChk.jsp' legacyBehavior>
-                                        <a>개인정보관리</a>
-                                    </Link>
-                                    <Link href='https://www.enuri.com/knowcom/qna.jsp' legacyBehavior>
-                                        <a>쇼핑Q&A</a>
-                                    </Link>
-                                    <button type='button' onClick={logout} className='my__menu__logout-btn'>로그아웃</button>
+                                    <a href='https://www.enuri.com/my/my_enuri.jsp?name=zzim'>마이 e클럽</a>
+                                    <a href='https://www.enuri.com/my/eclub.jsp?t=emoney'>e머니<span>75</span>점</a>
+                                    <a href='https://www.enuri.com/my/my_enuri.jsp?name=zzim'>구독상품</a>
+                                    <a href='https://www.enuri.com/member/info/infoPwChk.jsp'>개인정보관리</a>
+                                    <a href='https://www.enuri.com/knowcom/qna.jsp'>쇼핑Q&A</a>
+                                    <button type='button' onClick={logout} className={styles.logout__btn}>로그아웃</button>
                                 </>
                                 )}
                             </div>
                         )}
                     </div>
                     <div>
-                        <button type='button' className='my-menu__btn my-menu__btn--latelygoods'>최근 본 상품</button>
+                        <button type='button' className={styles.latelygoods__btn}>최근 본 상품</button>
                     </div>
                     <div>
-                        <button type='button' className='my-menu__btn my-menu__btn--alarm'>알림함</button>
+                        <button type='button' className={styles.alarm__btn}>알림함</button>
                     </div>
                 </div>
             </div>
-            <nav className='header__nav' aria-label='네비게이션 메뉴'>
-                <ul className='header__nav__list'>
+            <nav className={styles.nav} aria-label='네비게이션 메뉴'>
+                <ul className={styles.list}>
                     <li>
-                        <Link href='/' legacyBehavior>
-                            <a className={pathname === '/' ? 'active' : ''}>건강+ 홈</a>
-                        </Link>
+                        <Link href='/' className={pathname === '/' ? styles.active : ''}>건강+ 홈</Link>
                     </li>
                     <li>
-                        <Link href='/ingredient' legacyBehavior>
-                            <a className={pathname === '/ingredient' ? 'active' : ''}>성분별</a>
-                        </Link>
+                        <Link href='/ingredient' className={pathname === '/ingredient' ? styles.active : ''}>대상/기능별</Link>
                     </li>
                     <li>
-                        <Link href='/target' legacyBehavior>
-                            <a className={pathname === '/target' ? 'active' : ''}>대상/기능별</a>
-                        </Link>
+                        <Link href='/target' className={pathname === '/target' ? styles.active : ''}>대상/기능별</Link>
                     </li>
                     <li>
-                        <Link href='/lowest' legacyBehavior>
-                            <a className={pathname === '/lowest' ? 'active' : ''}>최저가보장</a>
-                        </Link>
+                        <Link href='/lowest' className={pathname === '/lowest' ? styles.active : ''}>최저가보장</Link>
                     </li>
                     <li>
-                        <Link href='/tip' legacyBehavior>
-                            <a className={pathname === '/tip' ? 'active' : ''}>TIP</a>
-                        </Link>
+                        <Link href='/tip' className={pathname === '/tip' ? styles.active : ''}>TIP</Link>
                     </li>
                 </ul>
             </nav>
@@ -125,4 +104,4 @@ const Pcheader: React.FC = () => {
     );
 };
 
-export default Pcheader;
+export default PcHeader;

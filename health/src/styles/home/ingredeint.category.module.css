@@ -1,0 +1,17 @@
+.category {padding: 40px 0 112px;}
+.inner {width: 1280px; margin: 0 auto; position: relative;}
+.tit {font-size: 28px; line-height: 32px; color: #000; font-weight: 700; text-align: center;}
+.list {display: flex; gap: 0 24px; justify-content: center; padding-top: 32px;}
+.link {display: block; width: 82px; padding-top: 90px; background-position: 50% 22px !important;  position: relative;} 
+.link::before {content: ""; border: 1px solid #ddd; position: absolute; top: 0; left: 0;width: 82px; height: 82px; border-radius: 20px; box-sizing: border-box;}
+.item:nth-child(1) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico1.svg) no-repeat;}
+.item:nth-child(2) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico2.svg) no-repeat;}
+.item:nth-child(3) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico3.svg) no-repeat;}
+.item:nth-child(4) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico4.svg) no-repeat;}
+.item:nth-child(5) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico5.svg) no-repeat;}
+.item:nth-child(6) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico6.svg) no-repeat;}
+.item:nth-child(7) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico7.svg) no-repeat;}
+.item:nth-child(8) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico8.svg) no-repeat;}
+.item:nth-child(9) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico9.svg) no-repeat;}
+.item:nth-child(10) .link {background: url(//img.enuri.info/images/health/web/main-cate_ico10.svg) no-repeat;}
+.name {font-size: 16px; line-height: 22px; color: #444; text-align: center; letter-spacing: -1.1px; margin-top: 8px;}
