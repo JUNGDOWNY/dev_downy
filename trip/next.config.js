@@ -1,8 +1,5 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/trip",
-  assetPrefix: "/trip/",
+  images: {
+    unoptimized: true
+  }
 };
-
-module.exports = nextConfig;
