@@ -1,0 +1,9 @@
+.wrap {padding-top: 200px;}
+.calc {width: 382px; margin: 0 auto; }
+input {width: 100%; background: rgb(241, 241, 241); height: 150px; font-size: 26px; text-align: right; box-sizing: border-box; vertical-align: bottom; border: none; padding: 0 8px;}
+.ipt-monitor {height: 24px; font-size: 20px;}
+.calc-button {display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; background: #dfc2da; padding: 5px;}
+.calc button {width: 90px; padding: 20px 0; font-size: 20px; border: 1px solid #ddd; cursor: pointer; background: #fff; border-radius: 5px; transition: 0.2s;}
+.calc button:hover {color: #fff; background: rgba(231, 227, 230, 0.1);}
+.calc .btn-zero,
+.calc .btn-result {width: 184px;}
