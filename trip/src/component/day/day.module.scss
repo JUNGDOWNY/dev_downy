@@ -1,0 +1,17 @@
+@import "../../styles/mixin.scss";
+
+.day {
+    height: 20vh;
+    text-align: center;
+    padding: 20px 0 ;
+}
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+.result {
+    font-size: 32px;
+    margin-top: 10px;
+    font-weight: 800;
+    color: $main-color;
+}

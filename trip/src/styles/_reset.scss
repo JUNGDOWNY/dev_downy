@@ -1,0 +1,105 @@
+// 글로벌 색상 변수
+$main-color: #092886;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'PyeojinGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+body,
+input,
+textarea,
+select,
+table,
+button {
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: 'PyeojinGothic', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕',
+	'AppleSDGothicNeo-Medium', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic',
+	'Helvetica', 'AppleGothic', 'Droid sans', 'Sans-serif', 'Dotum', 'Verdana',
+	'Helvetica', sans-serif;
+	-webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+legend, caption {
+	visibility: hidden;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -5000px;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: 0;
+}
+
+iframe {
+	display: block;
+	border:0;
+	outline:none;
+}
+
+hr {
+	display: none;
+}
+
+button { 
+	border: 0 none; 
+	background-color: transparent; 
+	cursor: pointer;
+	outline:none; 
+	background-color:transparent; 
+	color:inherit; 
+	letter-spacing:inherit; 
+	font-size:inherit;
+} 
+
+button::-moz-focus-inner { 
+    border:0; 
+    padding:0; 
+} 
+
+input{
+	&:focus {
+		outline: none;
+	}
+}
+
+address,
+em { 
+    font-style:normal 
+} 
+
+textarea{
+	resize: none;
+}

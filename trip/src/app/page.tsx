@@ -1,13 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Header from "../component/header/header";
+import DAY from "../component/day/day";
 
 export default function Home() {
   return (
-    <div className={styles.page}>   
+    <div>   
      <Header />
-      <main className={styles.main}>
-        test
+      <main>
+        <DAY />
       </main>
     </div>
   );
