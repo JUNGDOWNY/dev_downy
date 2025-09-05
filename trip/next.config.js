@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production'
-
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: isProd ? '/dev_downy' : '',
-  assetPrefix: isProd ? '/dev_downy' : '',
+  basePath: '/dev_downy/trip',
+  assetPrefix: '/dev_downy/trip',
   images: {
     unoptimized: true
   }
 }
+
+module.exports = nextConfig
